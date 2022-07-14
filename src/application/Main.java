@@ -13,6 +13,12 @@ public class Main extends Application {
 			VBox root = new VBox();
 
 
+			root.getChildren().add(new Label("Ran's label"));
+			root.getChildren().add(new Label("Ran's branch"));
+			root.getChildren().add(new Label("Ran's branch2"));
+
+
+
 			root.getChildren().add(new Label("Arush's label"));
 
 			
