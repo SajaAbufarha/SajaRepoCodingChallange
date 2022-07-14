@@ -14,6 +14,7 @@ public class Main extends Application {
 
 
 			root.getChildren().add(new Label("Arush's label"));
+			
 			root.getChildren().add(new Label("Arush's branch"));
 			Scene scene = new Scene(root, 400, 400);
 			// scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
