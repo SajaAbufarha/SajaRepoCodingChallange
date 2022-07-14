@@ -12,10 +12,15 @@ public class Main extends Application {
 		try {
 			VBox root = new VBox();
 
-			root.getChildren().add(new Label("Ran's label"));
 
 			root.getChildren().add(new Label("Arush's label"));
+
+			
+			root.getChildren().add(new Label("Arush's branch"));
+			
+
 			root.getChildren().add(new Label("Saja's branch"));
+
 
 			Scene scene = new Scene(root, 400, 400);
 			// scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
